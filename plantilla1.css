@@ -34,7 +34,9 @@
 .header_text {
 	height: 110px;
 	padding-left: 110px;
-	
+	background: url(../img/alexa-redondo.png) no-repeat left center;
+
+	/*background: url(../img/free-shipping-alexacatalog.png) no-repeat left center;*/
 	display: table-cell;
 	vertical-align: middle;
 	font-size: 14px;
@@ -89,37 +91,25 @@
 	padding: 0
 }
 
-#small_holder a {
+#small_holder label {
 	margin: 0;
 	display: block;
 	cursor: pointer;
 	text-align: center
 }
 
-#small_holder a img {
+#small_holder label img {
 	max-width: 100%;
 	max-height: 79px
 }
 
-#big_holder>.big-img:nth-child(1) {
-    display: block;
+#product-img-1:checked~#big_holder>.big-img:nth-child(1),
+#product-img-2:checked~#big_holder>.big-img:nth-child(2),
+#product-img-3:checked~#big_holder>.big-img:nth-child(3),
+#product-img-4:checked~#big_holder>.big-img:nth-child(4),
+#product-img-5:checked~#big_holder>.big-img:nth-child(5) {
+	display: block
 }
-
-#product-img-1:target~#big_holder>.big-img:nth-child(1),
-#product-img-2:target~#big_holder>.big-img:nth-child(2),
-#product-img-3:target~#big_holder>.big-img:nth-child(3),
-#product-img-4:target~#big_holder>.big-img:nth-child(4),
-#product-img-5:target~#big_holder>.big-img:nth-child(5) {
-	display: block;
-}
-
-#product-img-2:target~#big_holder>.big-img:nth-child(1),
-#product-img-3:target~#big_holder>.big-img:nth-child(1),
-#product-img-4:target~#big_holder>.big-img:nth-child(1),
-#product-img-5:target~#big_holder>.big-img:nth-child(1) {
-	display: none;
-}
-
 
 .description {}
 
@@ -249,7 +239,7 @@
 	padding: 0
 }
 
-.tab_control a {
+.tab_control label {
 	margin: 0;
 	padding: 15px 25px;
 	float: left;
@@ -264,16 +254,11 @@
 	text-align: center
 }
 
-.tab_control>a:nth-child(1){
-	background: #eb5858;
-}
-
-
-.tab_control a:last-child {
+.tab_control label:last-child {
 	border-right-width: 0px
 }
 
-.tab_control a i {
+.tab_control label i {
 	display: none
 }
 
@@ -291,11 +276,6 @@
 	line-height: 25px;
 }
 
-
-.tab_text:nth-child(1) {
-    display: block;
-}
-
 .tab_text h2 {
 	display: block;
 	margin: 20px 0 10px;
@@ -304,51 +284,33 @@
 	font-family: 'Roboto Slab', serif;
 }
 
-
-#tab_2:target~.tab_control>a:nth-child(1),
-#tab_3:target~.tab_control>a:nth-child(1),
-#tab_4:target~.tab_control>a:nth-child(1),
-#tab_5:target~.tab_control>a:nth-child(1),
-#tab_6:target~.tab_control>a:nth-child(1) {
-        background: #333745;
+#tab_1:checked~.tab_control>label:nth-child(1),
+#tab_2:checked~.tab_control>label:nth-child(2),
+#tab_3:checked~.tab_control>label:nth-child(3),
+#tab_4:checked~.tab_control>label:nth-child(4),
+#tab_5:checked~.tab_control>label:nth-child(5),
+#tab_6:checked~.tab_control>label:nth-child(6) {
+	background: #eb5858
 }
 
-
-#tab_1:target~.tab_control>a:nth-child(1),
-#tab_2:target~.tab_control>a:nth-child(2),
-#tab_3:target~.tab_control>a:nth-child(3),
-#tab_4:target~.tab_control>a:nth-child(4),
-#tab_5:target~.tab_control>a:nth-child(5),
-#tab_6:target~.tab_control>a:nth-child(6) {
-	background: #eb5858;
-}
-
-#tab_1:target~.tab_content>.tab_text:nth-child(1),
-#tab_2:target~.tab_content>.tab_text:nth-child(2),
-#tab_3:target~.tab_content>.tab_text:nth-child(3),
-#tab_4:target~.tab_content>.tab_text:nth-child(4),
-#tab_5:target~.tab_content>.tab_text:nth-child(5),
-#tab_6:target~.tab_content>.tab_text:nth-child(6) {
-	display: block;
-}
-
-#tab_2:target~.tab_content>.tab_text:nth-child(1),
-#tab_3:target~.tab_content>.tab_text:nth-child(1),
-#tab_4:target~.tab_content>.tab_text:nth-child(1),
-#tab_5:target~.tab_content>.tab_text:nth-child(1),
-#tab_6:target~.tab_content>.tab_text:nth-child(1) {
-	display: none;
+#tab_1:checked~.tab_content>div:nth-child(1),
+#tab_2:checked~.tab_content>div:nth-child(2),
+#tab_3:checked~.tab_content>div:nth-child(3),
+#tab_4:checked~.tab_content>div:nth-child(4),
+#tab_5:checked~.tab_content>div:nth-child(5),
+#tab_6:checked~.tab_content>div:nth-child(6) {
+	display: block
 }
 
 .footer {
 	padding: 40px 0;
 	background: #333745;
-	border-top: 10px solid #eb5858;
+	border-top: 10px solid #eb5858
 }
 
 .copyright {
 	padding: 10px 0;
-	position: relative;
+	position: relative
 }
 
 .copyright:before {
@@ -378,10 +340,10 @@
 		font-size: 15px;
 		text-align: justify
 	}
-	.tab_control a i {
+	.tab_control label i {
 		display: block
 	}
-	.tab_control a span {
+	.tab_control label span {
 		display: none
 	}
 }
@@ -393,7 +355,7 @@
 	.promotion_single {
 		width: 100%
 	}
-	.tab_control a {
+	.tab_control label {
 		padding: 15px 20px
 	}
 	.tab_content {
