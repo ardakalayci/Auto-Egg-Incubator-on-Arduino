@@ -1,0 +1,200 @@
+body{margin:0 auto;padding:0;width:100%;font-family:'Poppins',sans-serif}
+h1,h2,h3,h4,h5,h6{padding:0;margin:0}
+.tani-clear{clear:both}
+.tani-wrapcen{width:100%;text-align:center;padding:0;margin:0 auto;position:relative;display:inline-block}
+.tani-main,.tani-wrapcen,.tani-contener,.tani-wrapcens{width:100%;display:inline-block}
+.tani-wrapcen{background-color:#373737;width:100%;text-align:center;padding:0;margin:0}
+.tani-contener{width:100%;float:left;margin:0;padding:0}
+.tani-content{width:1000px;text-align:left;border:none;padding:0;margin:20px auto 0}
+.tani-background{background:#e8e8e8}
+#tani-header{width:1000px;position:relative;margin:4em auto 0;padding:0;clear:both;display:table;background:#f5f5f5;background:-moz-linear-gradient(top,#f5f5f5 0%,#d7d7d7 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#f5f5f5),color-stop(100%,#d7d7d7));background:-webkit-linear-gradient(top,#f5f5f5 0%,#d7d7d7 100%);background:-o-linear-gradient(top,#f5f5f5 0%,#d7d7d7 100%);background:-ms-linear-gradient(top,#f5f5f5 0%,#d7d7d7 100%);background:linear-gradient(to bottom,#f5f5f5 0%,#d7d7d7 100%);border-top:2px solid #e74c3c}
+#tani-header #tani-logo img{border:0}
+#tani-header img{border:0}
+#tani-logo{padding:0;padding:2.3em 0 0 10px;left:0;float:left}
+#tani-menu-holder{width:1000px;float:left;margin:45px 0 0;padding:0;position:relative}
+#tani-menu{width:100%;max-width:1000px;margin:0 auto;padding:0;position:relative;display:table;background:#757575}
+#tani-menu ul{margin:0;padding:0;list-style:none;min-height:40px;width:100%;position:relative}
+#tani-menu ul li{float:left;list-style:none;margin:0 0 0 15px;text-align:left;position:relative}
+#tani-menu ul li:first-child{margin-left:0;background:#e74c3c}
+#tani-menu ul li a{line-height:40px;margin:0 1px 0 0;padding:5px 15px;color:#fff;font-family:'Poppins',sans-serif;text-decoration:none;font-size:15px;font-weight:400;display:block;position:relative;min-width:70px;text-align:center;text-transform:none;border:1px solid transparent;border-top:1px solid #616161;border-radius:1px 0;outline:none}
+#tani-menu ul li a:hover{color:#fff;text-decoration:none;background:#e74c3c}
+#tani-header #tani-weline{float:right;margin:37px 15px 0 0;padding:0 4px;border:1px solid #D5D5D5;-webkit-box-shadow:0 0 10px 0 rgba(0,0,0,0.15);-moz-box-shadow:0 0 10px 0 rgba(0,0,0,0.15);box-shadow:0 0 10px 0 rgba(0,0,0,0.15)}
+#tani-weline span{display:inline-block;padding:5px;color:#111;font-size:16px;font-family:'Poppins',sans-serif}
+.top-promotion{width:100%;display:inline-block;float:left;margin:0;min-height:37px;color:#c3c3c3;line-height:37px;background:#212121;background:-moz-linear-gradient(top,#212121 0%,#000 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#212121),color-stop(100%,#000));background:-webkit-linear-gradient(top,#212121 0%,#000 100%);background:-o-linear-gradient(top,#212121 0%,#000 100%);background:-ms-linear-gradient(top,#212121 0%,#000 100%);background:linear-gradient(to bottom,#212121 0%,#000 100%);border-top:1px solid #e74c3c;position:relative}
+.contact-text,.phone,.email-s{float:left;display:inline-block;padding:0 37px 0 16px;margin-right:25px;line-height:37px;color:#fff;font-size:15px;font-weight:400}
+.top-promotion i{float:left;display:inline-block;line-height:37px;color:#fff;font-size:15px;font-weight:400;text-transform:uppercase}
+#tani-l-banner{width:218px;text-align:center;margin:0;padding:0;border:1px solid #d9d9d9;background-color:#FFF}
+#LeftPanel{width:220px!important;text-align:left;vertical-align:top!important;margin-right:15px;float:left;padding:0}
+#LeftPanel img{border:0}
+#tani-widghead{margin:0;background-color:#e74c3c;padding:8px 0}
+#tani-widghead span{font-family:'Poppins',sans-serif;font-size:19px;font-weight:400;color:#fff;text-transform:uppercase;text-decoration:none;text-align:left;padding-left:12px}
+#tani-widghead span:before{content:"\f0c9";font-family:'FontAwesome';font-size:1em;padding-right:10px;vertical-align:middle;font-weight:400}
+#tani-categories{text-align:left;margin:0;position:relative;top:0;padding:0}
+#tani-categories ul.lev1{list-style-type:none;margin:0 auto;left:0;right:0;padding:0;border-top:none}
+#tani-categories ul.lev1 li{padding:0;list-style:none;line-height:30px;height:30px;text-align:left;margin:0;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#DDD;background:#f8f8f8}
+#tani-categories ul.lev1 li.tani-lastitem{margin:0;padding:0;border:0 none}
+#tani-categories ul.lev1 li:last-child{border-bottom:none}
+#tani-categories ul.lev1 li a{color:#585858;font-family:'Poppins',sans-serif;font-size:14px;text-decoration:none;display:block;padding:0 14px;margin:0;font-weight:400;height:30px;line-height:30px;overflow:hidden;text-align:left}
+#tani-categories ul.lev1 li a:hover{color:#fff;text-decoration:none;background:#585858}
+#tani-categories ul.lev1 li span{color:#fff;font-family:'Poppins',sans-serif;font-size:14px;text-decoration:none;display:block;padding:0 14px;margin:0;font-weight:400;height:30px;line-height:30px;overflow:hidden;text-align:left;background:#585858}
+#tani-categories ul.lev1 li .cnt{display:none}
+#tani-categories ul.lev2{list-style-type:none;margin:0 auto;left:0;right:0;padding:0}
+#tani-categories ul.lev2 li{padding:0;list-style:none;line-height:30px;height:30px;text-align:left;margin:0;margin:0;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#DDD}
+#tani-categories ul.lev2 li:last-child{border-bottom:none}
+#tani-categories ul.lev2 li a{color:#585858;font-family:'Poppins',sans-serif;font-size:13px;text-decoration:none;display:block;padding:0 14px 0 24px;margin:0;font-weight:400;height:30px;line-height:30px;overflow:hidden;text-align:left;background:#f3f3f3}
+#tani-categories ul.lev2 li a:hover{color:#fff;text-decoration:none;background-color:#585858}
+#tani-categories ul.lev2 li span{color:#fff;font-family:'Poppins',sans-serif;font-size:13px;text-decoration:none;display:block;padding:0 14px 0 24px;margin:0;font-weight:400;height:30px;line-height:30px;overflow:hidden;text-align:left;background:#585858}
+#tani-gap{height:25px;width:220px;clear:both}
+#listingarea{width:1000px;position:relative;float:left;margin:0 0 20px;padding:0}
+.tani-listingarea-box{float:left;margin-bottom:10px;width:1000px}
+.tani-listinghead{font-family:'Poppins',sans-serif;font-size:18px;color:#fff;text-align:left;margin:0;padding:7px 15px;font-weight:400;background:#e74c3c}
+.widget-1,.widget-2{text-align:left;margin:0;position:relative;top:0;padding:0}
+.widget-1 ul{list-style-type:none;margin:0 auto;left:0;right:0;padding:0;border-top:none}
+.widget-1 ul li{padding:0;list-style:none;line-height:30px;height:30px;text-align:left;margin:0;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#DDD;background:#f8f8f8}
+.widget-1 ul li a{color:#585858;font-family:'Poppins',sans-serif;font-size:14px;text-decoration:none;display:block;padding:0 14px;margin:0;font-weight:400;height:30px;line-height:30px;overflow:hidden;text-align:left}
+.widget-1 ul li a:hover{color:#fff;text-decoration:none;background:#585858}
+.tani-listingarea-box article{border:1px solid #e7e7e7;background:#fff;padding-bottom:15px}
+.pic_gallery{border:0 solid #888}
+.pic_gallery .pic_set:hover .pic_sm div{color:#e7e7e7}
+.pic_gallery{background-color:#FFF}
+.pic_gallery .pic_sm div,.pic_gallery .pic_lg div{background-color:#fff}
+.pic_gallery{width:100%!important;max-width:none}
+@media all and (min-width: 600px) {
+.pic_gallery{width:70%!important}
+}
+@media all and (min-width: 800px) {
+.pic_gallery{margin:0 0 10px 15px}
+}
+@media all and (min-width: 1100px) {
+.pic_gallery{width:70%!important}
+}
+.pic_gallery .pic_gal_5x1{width:100%;padding-top:119.39%}
+.pic_gallery .pic_gal_5x1 .pic_gal_cells{width:86.96%;height:87.46%}
+.pic_gallery .pic_gal_5x1 .pic_sm{width:18.75%;height:15.62%;margin:.62%}
+.pic_gallery .pic_gal_5x1 .pic_lg{width:98.75%;height:82.29%;margin:.62%}
+.pic_gallery .pic_gal_5x1 .pic_sm img{max-width:83.33%;max-height:83.33%}
+.pic_gallery .pic_gal_5x1 .pic_lg img{max-width:96.83%;max-height:96.83%}
+.pic_gallery,.pic_gallery .gal{position:relative;margin:auto}
+.pic_gallery .pic_gal_cells{position:absolute;left:0;top:0;bottom:0;right:0;margin:0 auto}
+.pic_gallery img{position:absolute;width:auto;height:auto;left:0;top:0;bottom:0;right:0;margin:auto}
+.pic_gallery .pic_sm{position:relative;overflow:hidden;float:left;display:block}
+.pic_gallery .pic_lg{position:absolute;overflow:hidden;display:none;left:0;top:0;z-index:1}
+.pic_gallery .pic_sm div,.pic_gallery .pic_lg div{position:absolute;left:0;top:0;right:0;bottom:0}
+.pic_gallery .pic_lg{display:none}
+.pic_gallery .pic_lg.pic_main{position:relative;display:block;float:left;z-index:0}
+.pic_gallery .pic_set:hover .pic_sm div{border:1px solid;cursor:pointer;opacity:.5}
+.pic_sm div{border:1px solid #e7e7e7}
+.pic_gallery .pic_set:hover .pic_lg{display:block;left:0;top:0}
+.middle_bar{float:right;width:100%;overflow:hidden;margin:10px 0}
+.middle_heading{display:block;background:#e74c3c;color:#fff;text-align:center}
+.middle_heading span{color:#fff;display:block;font-size:17px;padding:5px 0;text-align:center;text-decoration:none;text-transform:uppercase;line-height:35px;font-weight:600;font-family:'Poppins',sans-serif}
+.middle_content{padding:15px 10px;background:#fff;border:1px solid #e7e7e7;font-size:16px}
+.middle_content img{display:block;max-width:100%;height:auto;margin:0 auto}
+.middle_content,.middle_content a,.middle_content li,.middle_content p,.middle_content tr,.middle_content td{margin-bottom:0;line-height:22px;font-size:15px;color:#000;font-family:'Poppins',sans-serif}
+.middle_content{padding:10px 10px 20px}
+.middle_content a{color:#111;font-family:'Poppins',sans-serif}
+.middle_content a:hover{text-decoration:underline}
+.middle_content ul{margin-bottom:10px;padding-left:2em}
+.middle_content ul li{margin:0 0 5px;position:relative}
+.middle_content ul li:last-child{margin-bottom:0}
+.middle_content h1{font-size:20px;color:#252525;text-transform:uppercase;font-weight:600;line-height:32px;margin-top:10px;font-family:'Poppins',sans-serif}
+.middle_content h2{font-size:18px;color:#252525;text-transform:uppercase;font-weight:600;line-height:25px;margin-top:10px;font-family:'Poppins',sans-serif}
+.middle_content h3,.middle_content h4,.middle_content h5,.middle_content h6{font-size:14px;color:#000;font-weight:700;line-height:20px;margin-top:10px;font-family:'Poppins',sans-serif}
+.tabs section,.tabs section a,.tabs section li,.tabs section p,.tabs section tr,.tabs section td{margin-bottom:0;line-height:22px;font-size:15px;color:#000;font-family:'Poppins',sans-serif}
+.tabs section{margin:0;padding:25px 20px 35px}
+.tabs section a{color:#111;font-family:'Poppins',sans-serif}
+.tabs section a:hover{text-decoration:underline}
+.tabs section ul{margin-bottom:10px;padding-left:2em}
+.tabs section ul li{margin:0 0 5px;position:relative}
+.tabs section ul li:last-child{margin-bottom:0}
+.tabs section h1{font-size:20px;color:#252525;text-transform:uppercase;font-weight:600;line-height:32px;margin-top:10px;font-family:'Poppins',sans-serif}
+.tabs section h2{font-size:18px;color:#252525;text-transform:uppercase;font-weight:600;line-height:25px;margin-top:10px;font-family:'Poppins',sans-serif}
+.tabs section h3,.tabs section h4,.tabs section h5,.tabs section h6{font-size:14px;color:#000;font-weight:700;line-height:20px;margin-top:10px;font-family:'Poppins',sans-serif}
+.description-tab p{margin:0 0 15px}
+.tabs{float:right;width:100%;overflow:hidden;margin:10px auto}
+section{display:none;padding:15px;background:#fff;border:1px solid #ddd}
+.tabs input{display:none}
+.tabs label{display:inline-block;margin:0;padding:15px 25px;font-weight:600;text-align:center;color:#373737;background:#f1f1f1;font-size:16px;font-family:'Poppins',sans-serif}
+.tabs label:hover{color:#fff;cursor:pointer;background:#e74c3c}
+.tabs input:checked + label{color:#fff;text-decoration:none;background:#e74c3c}
+#tab1:checked ~ #content1,#tab2:checked ~ #content2,#tab3:checked ~ #content3,#tab4:checked ~ #content4{display:block}
+*{font-family:'Poppins',sans-serif;padding:0;margin:0}
+#content1,#content2,#content3,#content4{font-size:16px!important}
+.footer-container{width:100%;padding:0;margin:0;float:left;background-color:#373737}
+#tani-footer{width:1000px;margin:0 auto;padding:50px 0}
+#tani-footernav-title{color:#fff;float:left;font-family:'Poppins',sans-serif;font-size:20px;font-weight:400;margin:0 0 15px;text-align:left;letter-spacing:2px;width:100%}
+#tani-footernav-title span{color:#fff;font-family:'Poppins',sans-serif;font-size:20px;font-weight:700;text-transform:capitalize;letter-spacing:0}
+#tani-footer #tani-footernav ul{list-style:none outside none;padding:0;width:158px;display:inline-block;margin:0}
+#tani-footer #tani-footernav ul li{list-style:none;float:left;width:90px;transition:all .5s ease-in-out;margin:0 0 8px;padding:0}
+#tani-footer #tani-footernav ul li a{color:#fff;display:block;font-family:'Poppins',sans-serif;font-size:13px;font-weight:400;text-decoration:none;transition:all .5s ease-in-out;text-align:left;padding-left:8px}
+.tani-tab1{width:33%;display:block;float:left}
+.tani-tab2{width:33%;display:block;float:left;margin-left:45px}
+.tani-tab3{width:29%;display:block;float:left}
+#tani-text{color:#fff;font-family:'Poppins',sans-serif;font-size:14px;position:relative;left:auto;font-weight:400;text-decoration:none;text-align:left;line-height:18px;float:left;margin:0;letter-spacing:1px;padding:0}
+#tani-signup{float:left;display:block;margin-top:15px}
+#tani-signup a{border:none 0;cursor:pointer;text-decoration:none;font-family:'Poppins',sans-serif;font-size:13px;font-weight:600;color:#373737;text-transform:uppercase;background:#fff;transition:all .7s ease-in-out;padding:5px;font-size:17px}
+#tani-signup a:hover{background:#fff;color:#e74c3c}
+.tani-companydata{width:1000px;display:inline-block;border:1px solid #ededed;border-width:1px 0;padding:7px 0;margin:0 0 15px}
+.tani-phonefooter{width:auto;display:inline-block;float:left;color:#fff;font-size:18px;text-transform:uppercase;font-family:'Poppins',sans-serif;margin:4px 0 0;font-weight:600}
+.tani-phonefooter span{padding-left:20px;margin-left:10px;font-weight:400;color:#fff}
+.tani-phonefooter i{padding-right:10px;color:#fff}
+.tani-mailfooter{width:auto;display:inline-block;float:left;color:#fff;font-family:'Poppins',sans-serif;padding-left:25px;margin:6px 0 0 15px}
+.tani-mailfooter span{padding-left:20px;margin-left:10px;font-weight:400;color:#fff}
+.tani-mailfooter i{padding-right:10px;color:#fff}
+.tani-paymentfooter{width:auto;display:inline-block;float:right}
+#tani-footer #tani-copy{color:#fff;font-family:'Poppins',sans-serif;font-size:12px;font-weight:400;padding:0;width:100%;text-align:center;text-decoration:none;float:left;margin:0}
+#tani-footer #tani-designer{color:#fff;font-family:'Poppins',sans-serif;font-size:10px;font-weight:400;margin:4px 0;padding:0;text-align:center;text-decoration:none;float:left;width:100%}
+#tani-footer-logo a{width:133px;display:inline-block;margin:0 auto;height:25px}
+@media screen and (max-width: 999px) {
+#tani-header{width:100%!important;float:left;display:block}
+#tani-menu-holder{width:100%;float:left;padding:0;position:relative}
+.icon,#tani-l-banner,.widget-2{display:none}
+#LeftPanel{width:22%!important}
+#listingarea{width:75%!important}
+.tani-listingarea-box{width:100%!important}
+.tani-content{width:100%}
+#tani-footer,.tani-companydata{width:100%}
+.tani-tab2,.tani-paymentfooter{display:none}
+.tani-tab3{float:right}
+.tani-tab1,.tani-tab3{width:40%;margin-bottom:20px}
+.tani-fnavi{float:left;margin-bottom:3%;padding:0 5%;width:90%}
+#tani-menu ul li a{font-size:15px}
+.tani-phonefooter{margin:4px 37px 0}
+.tani-mailfooter{float:right;margin:4px 24px 0}
+}
+@media screen and (max-width: 768px) {
+#tani-menu,#tani-nav,#tani-weline,.top-promotion,.top-middle,.tani-topmenu{display:none}
+#tani-header{margin:0 auto;width:100%}
+#tani-header #tani-logo{background-position:center center;float:none;text-align:center;padding:0;margin:2em auto}
+#tani-header #tani-logo:hover{transform:none}
+.tani-contener{width:100%}
+.tani-content{margin-top:2%;width:100%}
+#LeftPanel,#tani-menu-holder{display:none}
+#listingarea{width:100%!important;margin-bottom:2%}
+.tani-listingarea-box{width:100%;margin-bottom:1%}
+.tani-listinghead{padding:3%;text-align:center;width:auto}
+.img-gallery-box{display:none}
+#tani-top{width:100%}
+#tani-header .tani-welcome{width:100%;float:left;margin:9px 0}
+#teb-bg,.related,.tani-desc-box{display:block}
+.tani-wrapcens{background:none repeat scroll 0 0 rgba(0,0,0,0);height:inherit}
+#tani-footer,.tani-footermain{background:none repeat scroll 0 0 rgba(0,0,0,0);height:3.5em;width:100%}
+#tani-footer #f-storeuseful,#tani-footer #f-storelinks,#tani-footer #f-storepages,#tani-newsletter,.tani-joinfamily,.tani-companydata,#tani-footernav,.tani-tab1,.tani-tab2,.tani-tab3{display:none}
+#tani-footer #tani-copy{top:1em}
+#tani-footer{padding:0}
+#tani-footer #tani-copy{color:#fff;padding-top:1em}
+.tani-content{min-height:400px}
+.tani-listingarea-box article{width:100%;border:none}
+#tani-footer #tani-designer{color:#373737}
+.middle_bar{width:100%;float:none}
+.middle_content{border:none}
+.tabs label{font-size:18px;width:100%;margin-left:auto;margin-right:auto;border:none;border:1px solid #ddd;border-right:none;border-left:none;padding:10px 0}
+}
+@media screen and (max-width: 320px) {
+.tabs label{font-size:16px}
+.middle_heading span{font-size:16px}
+}
+@media screen and (max-width: 480px) {
+.tabs label{font-size:17px}
+.middle_heading span{font-size:17px}
+}
