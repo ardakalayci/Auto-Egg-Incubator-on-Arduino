@@ -34,9 +34,7 @@
 .header_text {
 	height: 110px;
 	padding-left: 110px;
-	background: url(../img/alexa-redondo.png) no-repeat left center;
-
-	/*background: url(../img/free-shipping-alexacatalog.png) no-repeat left center;*/
+	
 	display: table-cell;
 	vertical-align: middle;
 	font-size: 14px;
